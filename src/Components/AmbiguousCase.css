@@ -16,7 +16,7 @@ h2 {
 
 label {
     margin-bottom: 5px;
-    text-align: left; /* Align text to the left */
+    text-align: left;
 }
 
 input[type="text"] {

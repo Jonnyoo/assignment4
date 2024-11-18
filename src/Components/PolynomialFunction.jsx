@@ -15,7 +15,7 @@ function PolynomialFunction() {
         }
         return result;
     }
-    
+
     const polynomialFunction = (coefficients, exponents) => {
         var result = '';
         for (var i = 0; i < coefficients.length; i++) {
@@ -29,7 +29,7 @@ function PolynomialFunction() {
         }
         return result;
     }
-    
+
     const handlePolynomial = () => {
         const splitCoefficients = coefficients.split(' ');
         const splitExponents = exponents.split(' ');
@@ -44,11 +44,11 @@ function PolynomialFunction() {
         <div className="form-container">
             <h2>Polynomial Function</h2>
             <label htmlFor="coefficients">Coefficients:</label>
-            <input type="text" id="coefficients" value={coefficients} onChange={(e) => setCoefficients(e.target.value)}/>
+            <input type="text" id="coefficients" value={coefficients} onChange={(e) => setCoefficients(e.target.value)} />
             <label htmlFor="exponents">Exponents:</label>
-            <input type="text" id="exponents" value={exponents} onChange={(e) => setExponents(e.target.value)}/>
+            <input type="text" id="exponents" value={exponents} onChange={(e) => setExponents(e.target.value)} />
             <label htmlFor="x-value">x Value:</label>
-            <input type="text" id="x-value" value={xvalue} onChange={(e) => setXValue(e.target.value)}/>
+            <input type="text" id="x-value" value={xvalue} onChange={(e) => setXValue(e.target.value)} />
             <label htmlFor="polynomial-function-result">Polynomial Function (Result):</label>
             <input type="text" id="polynomial-function-result" value={result} disabled />
             <label htmlFor="polynomial-evaluation-result">Polynomial Evaluation (Result):</label>
