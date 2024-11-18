@@ -5,6 +5,17 @@
   text-align: center;
 }
 
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
